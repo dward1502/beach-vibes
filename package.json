@@ -1,0 +1,44 @@
+{
+  "name": "beach-vibes",
+  "displayName": "Beach Vibes",
+  "description": "Dark theme inspired by 1980's VICE CITY and SUNSETS",
+  "publisher": "Bu5hw00k13",
+  "author": {
+    "name": "Daniel Ward"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.59.0"
+  },
+  "galleryBanner": {
+    "color": "#09131b",
+    "theme": "dark"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Dark",
+    "1980s",
+    "pink",
+    "orange",
+    "blue",
+    "green",
+    "neon",
+    "chill"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Beach Vibes",
+        "uiTheme": "vs-dark",
+        "path": "./themes/beach-vibes-color-theme.json"
+      },
+      {
+        "label": "Sunset Vibes",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Sunset Vibes-color-theme.json"
+      }
+    ]
+  }
+}
